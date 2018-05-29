@@ -25,7 +25,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <div class="navbar-brand"><%= link_to "Magical Music Shop", root_path %></div>
+          <div class="navbar-brand"><%= link_to "Aleph Books", root_path %></div>
           <!-- removed home from navbar and successfully added rb link to navbar-brand :)  -->
         </div>
         <div id="navbar" class="collapse navbar-collapse">
@@ -37,9 +37,13 @@
       </div>
     </nav>
     <%= yield %>
-    <footer>
-      <p>&copy; 2018 Bruno Correia. This page complies with GDPR. Click <%= link_to "here", simple_pages_gdpr_path %>
- for more info.</p>
+    <footer class="footer">
+      <div class="container">
+        <footer>
+          <p>&copy; 2018 Bruno Correia. This page complies with GDPR. Click <%= link_to "here", simple_pages_gdpr_path %>
+     for more info.</p>
+        </footer>
+      </div>
     </footer>
   </body>
 </html>

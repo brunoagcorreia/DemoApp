@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 //sass parameters for stylings bellow
-$font-stack: Futura, Helvetica, sans-serif;
+$font-stack: Helvetica, sans-serif;
 $primary-color: black;
 $secondary-color: red;
 $background-color: white;
@@ -21,8 +21,8 @@ html {
 
 body {
   /* Margin bottom = footer height */
-  margin-bottom: 4em;
-  background: $background-color
+  background: $background-color;
+  margin: 0 0 4em
 }
 
 .page-contents {
@@ -55,7 +55,13 @@ a {
 a:hover, .navbar-default .navbar-brand a:hover, .navbar-default .navbar-nav>li>a:hover {
 //necessary to overlap bootstrap configuration
   color: $secondary-color;
-  text-decoration: underline overline
+  text-decoration: none
+}
+
+a:visited {
+//necessary to overlap bootstrap configuration
+  color: orange;
+  text-decoration: none
 }
 
 .navbar-default .navbar-toggle {
@@ -103,7 +109,7 @@ a:hover, .navbar-default .navbar-brand a:hover, .navbar-default .navbar-nav>li>a
 
 // typography
 h1, h2, h3, p, footer {
-  font-family: Futura, Helvetica, sans-serif;
+  font-family: $font-stack;
 }
 
 h1, h2, h3, p {

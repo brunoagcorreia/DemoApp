@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :books
   get 'simple_pages/gdpr'
   get 'simple_pages/about'
   get 'simple_pages/contact'
