@@ -1,19 +1,31 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @book.name %>
-</p>
+<div class="page-contents">
+  <p>
+    <strong>Title:</strong>
+    <%= @book.name %>
+  </p>
 
-<p>
-  <strong>Description:</strong>
-  <%= @book.description %>
-</p>
+  <p>
+    <strong>Author:</strong>
+    <%= @book.author %>
+  </p>
 
-<p>
-  <strong>Image url:</strong>
-  <%= @book.image_url %>
-</p>
+  <p>
+    <strong>Description:</strong>
+    <%= @book.description %>
+  </p>
 
-<%= link_to 'Edit', edit_book_path(@book) %> |
-<%= link_to 'Back', books_path %>
+  <p>
+    <strong>Image url:</strong>
+    <%= @book.image_url %>
+  </p>
+
+  <p>
+    <strong>Price:</strong>
+    <%= @book.price %>
+  </p>
+
+  <%= link_to 'Edit', edit_book_path(@book) %> |
+  <%= link_to 'Back', books_path %>
+</div>
