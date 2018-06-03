@@ -5,4 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Book.create(name: "seed-generated book", description: "I also created this product without using the HTML form!")
+Book.create(name: "Filho Teu Não Foge à Luta", author: "Fellipe Awi", description: "MMA's history in Brazil", image_url:"book_filho.jpg", price: "9.99")
+Book.create(name: "12 Doutores, 12 Histórias", author: "Various Authors", description: "Short story collection starring the 12 Doctor Who incarnations", image_url:"book_doctors.jpg", price: "19.99")

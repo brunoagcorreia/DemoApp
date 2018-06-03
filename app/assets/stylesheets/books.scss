@@ -1,3 +1,21 @@
 // Place all the styles related to the books controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.img-responsive {
+  max-height: 200px;
+  max-width: 150px;
+}
+
+.title_header {
+  min-height: 3em;
+  margin-bottom: 1em;
+}
+
+.title_thumbnail {
+  height: 220px;
+}
+
+.title_content {
+  height: 2em;
+  margin-bottom: 1em;
+}
